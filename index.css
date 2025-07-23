@@ -17,12 +17,12 @@ body{
 }
 .card {
     text-align: center;
-    width: 18em;
-    height: 29em;    
+    width: 19em;
+    height: 30em;    
 }
 .img img{
-    width: 250px;
-    height: 250px;
+    width: 15em;
+    height: 15em;
     border-radius: 15px;
     margin: clamp(16px, 2vw, 30px) 0; /* clamp( minimum en px/rem, préféré en %(la largeur de l'écran), maximum en px/rem */
     /*clamp au lieu de marign pour une meilleure reponsive */
