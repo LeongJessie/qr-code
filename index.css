@@ -9,7 +9,7 @@ body{
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: hsl(212, 45%, 89%)
+    background-color: #d6e2f0
 }
 .kl-card{
     background-color: #fff;
@@ -17,14 +17,15 @@ body{
 }
 .card {
     text-align: center;
-    width:300px;
-    height: 450px;    
+    width: 18em;
+    height: 29em;    
 }
 .img img{
     width: 250px;
     height: 250px;
     border-radius: 15px;
-    margin: 23px 0px;
+    margin: clamp(16px, 2vw, 30px) 0; /* clamp( minimum en px/rem, préféré en %(la largeur de l'écran), maximum en px/rem */
+    /*clamp au lieu de marign pour une meilleure reponsive */
 }
 
 .texte {
